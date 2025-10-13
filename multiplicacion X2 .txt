@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int i,n;
+    int h=2;
+    cin>>n;
+    for(i=1;i<=n;i++){
+    cout<<"2x"<<i<<"="<<h*i<<endl;
+    }
+    
+  
+    return 0;
+}
